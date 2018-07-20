@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#install and set up simc
+git clone https://github.com/simulationcraft/simc.git
+cd simc/engine
+make -j4 OPENSSL=1 optimized
+ln -s simc ~/.local/
+
+#set up jupyter widgets
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust index.ipynb

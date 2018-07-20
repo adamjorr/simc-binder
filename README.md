@@ -1,5 +1,5 @@
 # simc-binder
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/adamjorr/simc-binder/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/adamjorr/simc-binder/master?filepath=index.ipynb)
 
 A binder repository for using Simulationcraft.
 

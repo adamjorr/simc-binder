@@ -14,3 +14,4 @@ jupyter nbextension enable --py widgetsnbextension
 find . -name 'index.ipynb'
 jupyter trust notebooks/index.ipynb
 
+exit 0

@@ -3,9 +3,7 @@
 #install and set up simc
 git clone https://github.com/simulationcraft/simc.git
 cd simc/engine
-make -j4 OPENSSL=1 optimized
-mkdir -p ~/.local/
-ln -s simc ~/.local/
+make -j16 OPENSSL=1 optimized
 echo "p3ch4uzw7rnj5c93dbe7b9r6q5fg2v5f" > ${HOME}/.simc_apikey
 
 #set up jupyter widgets

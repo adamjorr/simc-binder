@@ -11,5 +11,6 @@ echo "p3ch4uzw7rnj5c93dbe7b9r6q5fg2v5f" > ${HOME}/.simc_apikey
 #set up jupyter widgets
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
-jupyter trust index.ipynb
+find . -name 'index.ipynb'
+jupyter trust notebooks/index.ipynb
 
